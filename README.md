@@ -19,11 +19,11 @@ In the waveforms folder, there are 10 wav files: 5 files of the word "kiss" and 
 
 I used the kiss1.wav as the reference waveform, then used SpeechRecognition.m to calculate the minimum cost between kiss1.wav and each of the other 9 speech segments. Additionally, the resulting costs were normalized by path length for better comparison between costs. The non-normalized and normalized costs can be found in the following table.
 
-![Table](/Visuals/Table.png)
+![Table](/Visuals/Table.jpg)
 
 As you can see, the kiss1.wav and kiss3.wav are the most similar according to their normalized cost of 10.07. The corresponding path can be found in the following plot.
 
-![OptimalPath](/Visuals/OptimalPath.png)
+![OptimalPath](https://github.com/Matt-Conrad/DynamicTimeWarpingImplementation/blob/master/Visuals/OptimalPath.jpg)
 
 ## Application
 
